@@ -1,5 +1,5 @@
 # express-typescript
-One way to use TypeScript to build an express REST api.
+One way to use TypeScript to build an express REST api
 
 #Install
 npm install

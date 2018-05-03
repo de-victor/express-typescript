@@ -1,9 +1,8 @@
 import { Server } from './server/Server';
-import {Welcome} from './controllers/Welcome';
-
-let welcome = new Welcome();
+import {BuildRouters} from "./server/BuildRouters";
 
 const app = new Server();
-app.mountRouter('/welcome', welcome.getRouters());
+
+app.mountRouters(new BuildRouters().getRouters());
 
 app.run();
