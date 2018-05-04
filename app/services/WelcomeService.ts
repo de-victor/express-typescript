@@ -1,13 +1,13 @@
 import { Router, Request, Response } from 'express';
 import {Model} from "../model/Model";
-import {RouterModel} from "../server/RouterModel";
+import {RouterModel} from "../server/servers";
 
 export class WelcomeService{
     private router: Router;
     private path:string = "/welcome";
 
     private helloWorld(req: Request, res: Response): void{
-        res.send("Hello World");
+        res.send("Hello World!!");
     }
 
     private helloWorld2(req: Request, res: Response): void{

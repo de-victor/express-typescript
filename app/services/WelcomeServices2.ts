@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { GenericService } from "../generics/GenericService";
 import {Model} from "../model/Model";
-import { Sets } from '../server/Sets';
+import { Sets } from '../server/servers';
 
 export class WelcomeService2 extends GenericService{
     

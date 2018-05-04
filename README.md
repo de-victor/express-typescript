@@ -5,5 +5,4 @@ One way to use TypeScript to build an express REST api
 <p>npm install</p>
 <br/>
 <h1>#Run</h1>
-<p>npm run tsc</p>
 <p>npm start</p>

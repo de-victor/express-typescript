@@ -1,7 +1,7 @@
 import express, { Router } from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
-import {RouterModel} from "../server/RouterModel";
+import {RouterModel} from "../server/servers";
 
 export class Server{
     private app: express.Application;

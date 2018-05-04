@@ -1,6 +1,5 @@
-import { WelcomeService } from "../services/WelcomeService";
-import { WelcomeService2 } from "../services/WelcomeServices2";
-import { RouterModel } from "./RouterModel";
+import { WelcomeService, WelcomeService2 } from '../services/services';
+import { RouterModel } from "./servers";
 
 export class BuildRouters{
     private routes: RouterModel[] = [];

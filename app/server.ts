@@ -1,5 +1,4 @@
-import { Server } from './server/Server';
-import {BuildRouters} from "./server/BuildRouters";
+import { Server, BuildRouters } from './server/servers';
 
 const app = new Server();
 

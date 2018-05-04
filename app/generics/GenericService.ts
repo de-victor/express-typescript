@@ -1,7 +1,6 @@
 import { InterfaceService } from "../interfaces/InterfaceService";
 import { Router, Request, Response } from 'express';
-import { RouterModel } from '../server/RouterModel';
-import { Sets } from '../server/Sets';
+import { RouterModel, Sets } from '../server/servers';
 
 export abstract class GenericService implements InterfaceService {
 

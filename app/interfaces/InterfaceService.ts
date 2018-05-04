@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { RouterModel } from '../server/RouterModel'
+import { RouterModel } from '../server/servers'
 
 export interface InterfaceService{
 
