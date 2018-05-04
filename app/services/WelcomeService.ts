@@ -2,7 +2,7 @@ import { Router, Request, Response } from 'express';
 import {Model} from "../model/Model";
 import {RouterModel} from "../server/RouterModel";
 
-export class Welcome{
+export class WelcomeService{
     private router: Router;
     private path:string = "/welcome";
 
